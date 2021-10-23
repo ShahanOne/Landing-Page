@@ -1,0 +1,186 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.title-tab{
+  padding-top: 2%;
+  background-image: url("image-hero.jpg");
+}
+
+span{
+  color: hsl(0, 0%, 100%);
+}
+
+.navbar-nav{
+  position: relative;
+  left: 58%;
+}
+
+
+.title-text{
+  font-size: 3rem;
+display:  inline-block;
+color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 100%);
+  margin: 10% 0 10% 5% ;
+  padding: 1% 4%;
+  width: 40%
+}
+
+.vr-description-div{
+    padding: 10% 10% 7%;
+}
+
+.vr-details{
+  position: relative;
+  top: 56.5%;
+  text-align: left;
+  background-color: hsl(0, 0%, 100%);
+  padding: 4% 9% 0;
+  width: 120%;
+}
+
+.description-heading{
+    color: hsl(0, 0%, 0%);
+}
+
+.description-text{
+  color: hsl(0, 0%, 41%) ;
+}
+
+/* CREATIONS */
+
+.creations-div{
+    padding: 3% 9% 7%;
+}
+
+.see-all-btn{
+  position: relative;
+  left : 49%;
+
+}
+
+.img-name{
+  padding: 0 3% 2% ;
+  display: inline-block;
+  color: hsl(0, 0%, 85%);
+}
+
+.img-div{
+padding-top: 30%;
+  width: auto;
+  margin: 1%;
+}
+
+.earth{
+  background-image: url("earth.jpg");
+}
+
+.arcade{
+  background-image: url("arcade.jpg");
+}
+
+.soccer{
+  background-image: url("soccer.jpg");
+}
+
+.gride{
+  background-image: url("grid.jpg");
+}
+
+.up-above{
+  background-image: url("up-above.jpg");
+}
+
+.borealis{
+  background-image: url("borealis.jpg");
+}
+
+.curiosity{
+  background-image: url("curiosity.jpg");
+}
+
+.fisheye{
+  background-image: url("fisheye.jpg");
+}
+
+.footer{
+  background-color: black;
+padding: 2% 0 5%;
+}
+
+.bottom-logo{
+  padding-left: 1.5%;
+}
+
+.icons{
+  position: relative;
+  left: 78%;
+  bottom: 2%;
+}
+i{
+  margin: 1%;
+}
+.copyright{
+  position: relative;
+  left: 40%;
+  color: hsl(0, 0%, 41%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.rock-bottom{
+  color: hsl(0, 0%, 70%);
+}
+.rock-bottom-text{
+  text-decoration: none;
+}
+
+
+@media (max-width: 1000px) {
+
+.title-text{
+position: relative;
+left: 7%;
+width: 78%
+}
+
+.vr-description-div{
+  position: relative;
+  left: 0;
+
+}
+
+.vr-pic{
+  width: 1%;
+}
+
+  .img-div{
+    width: 50%;
+  }
+
+  .creations-div{
+    margin-top: 20%;
+  }
+  .img-row {
+    position: relative;
+    left: 25%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* - White: hsl(0, 0%, 100%)
+- Black: hsl(0, 0%, 0%)
+- Dark Gray: hsl(0, 0%, 70%)
+- Very Dark Gray: hsl(0, 0%, 41%) */
